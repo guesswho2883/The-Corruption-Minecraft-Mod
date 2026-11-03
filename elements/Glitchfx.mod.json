@@ -1,0 +1,42 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Glitched",
+    "icon": "glitch_fx",
+    "color": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "onAddedSound": "block.enchantment_table.use",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "MAX_HEALTH",
+        "amount": -5.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": -0.25,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "attribute": "ATTACK_SPEED",
+        "amount": 2.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "SWIM_SPEED",
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": "GlitchfxEffectStartedapplied",
+    "onExpired": "GlitchfxEffectExpires"
+  }
+}

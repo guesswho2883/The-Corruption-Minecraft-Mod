@@ -1,0 +1,18 @@
+# Gradle cache and generated builds
+.gradle/
+build/
+
+# Minecraft runtime files
+run/
+
+# MCreator local history and backups
+.mcreator/localHistory/
+.mcreator/workspaceBackups/
+.mcreator/generatorGradleCache/
+.mcreator/userSettings
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

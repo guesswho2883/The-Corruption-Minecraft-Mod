@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "test:uitem",
+    "b": "test:nul_lfrag"
+  },
+  "result": {
+    "id": "test:universal_crystal",
+    "count": 2
+  }
+}

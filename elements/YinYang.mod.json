@@ -1,0 +1,9 @@
+{
+  "_fv": 89,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Yin Yang",
+    "item": "CUSTOM:Smithingying",
+    "armorTextureFile": "yin_yang"
+  }
+}

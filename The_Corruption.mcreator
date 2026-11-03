@@ -1,0 +1,603 @@
+{
+  "mod_elements": [
+    {
+      "name": "GlitchitemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchitem_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/GlitchitemRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Glitchitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/glitchitem.json",
+          "src/main/java/net/mcreator/test/item/GlitchitemItem.java",
+          "src/main/resources/assets/test/items/glitchitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Glitchblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/glitchblock.json",
+          "src/main/resources/assets/test/models/block/glitchblock.json",
+          "src/main/resources/data/test/loot_table/blocks/glitchblock.json",
+          "src/main/resources/data/test/worldgen/configured_feature/glitchblock.json",
+          "src/main/resources/assets/test/models/item/glitchblock.json",
+          "src/main/resources/assets/test/items/glitchblock.json",
+          "src/main/resources/data/test/worldgen/placed_feature/glitchblock.json",
+          "src/main/java/net/mcreator/test/block/GlitchblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GlitchfxEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchfx_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/GlitchfxEffectStartedappliedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Glitchfx",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchfx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/potion/GlitchfxMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Glitchpotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchpotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GlitchfxEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchfx_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/GlitchfxEffectExpiresProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Glitchpotionamp2",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchpotionamp_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Brewglitchfx",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewglitchfx",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Brewglitchfxamp2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brewglitchfxamp_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Glitchblockrec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchblockrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/glitchblockrec.json",
+          "src/main/resources/data/test/advancement/recipes/glitchblockrec.json"
+        ]
+      }
+    },
+    {
+      "name": "NULLfrag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nul_lfrag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/NULLfragItem.java",
+          "src/main/resources/assets/test/items/nul_lfrag.json",
+          "src/main/resources/assets/test/models/item/nul_lfrag.json"
+        ]
+      }
+    },
+    {
+      "name": "NULLblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nul_lblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/block/nul_lblock.json",
+          "src/main/resources/assets/test/items/nul_lblock.json",
+          "src/main/resources/assets/test/blockstates/nul_lblock.json",
+          "src/main/java/net/mcreator/test/block/NULLblockBlock.java",
+          "src/main/resources/data/test/loot_table/blocks/nul_lblock.json",
+          "src/main/resources/assets/test/models/item/nul_lblock.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalCrystal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/worldgen/configured_feature/universal_crystal.json",
+          "src/main/resources/data/test/worldgen/placed_feature/universal_crystal.json",
+          "src/main/resources/data/test/loot_table/blocks/universal_crystal.json",
+          "src/main/java/net/mcreator/test/block/UniversalCrystalBlock.java",
+          "src/main/resources/assets/test/models/block/universal_crystal.json",
+          "src/main/resources/assets/test/blockstates/universal_crystal.json",
+          "src/main/resources/assets/test/models/item/universal_crystal.json",
+          "src/main/resources/assets/test/items/universal_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Uitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/uitem.json",
+          "src/main/resources/assets/test/models/item/uitem.json",
+          "src/main/java/net/mcreator/test/item/UitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ublock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ublock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/ublock.json",
+          "src/main/resources/data/test/loot_table/blocks/ublock.json",
+          "src/main/java/net/mcreator/test/block/UblockBlock.java",
+          "src/main/resources/assets/test/items/ublock.json",
+          "src/main/resources/data/test/worldgen/configured_feature/ublock.json",
+          "src/main/resources/assets/test/models/item/ublock.json",
+          "src/main/resources/assets/test/models/block/ublock.json",
+          "src/main/resources/data/test/worldgen/placed_feature/ublock.json"
+        ]
+      }
+    },
+    {
+      "name": "Uncraftublock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncraftublock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/uncraftublock.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftucrystal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftucrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/craftucrystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftublock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftublock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/craftublock.json"
+        ]
+      }
+    },
+    {
+      "name": "Uncraftucrystal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncraftucrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/uncraftucrystal.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/UniversalPickaxeItem.java",
+          "src/main/resources/assets/test/items/universal_pickaxe.json",
+          "src/main/resources/assets/test/models/item/universal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/UniversalAxeItem.java",
+          "src/main/resources/assets/test/models/item/universal_axe.json",
+          "src/main/resources/assets/test/items/universal_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/universal_sword.json",
+          "src/main/java/net/mcreator/test/item/UniversalSwordItem.java",
+          "src/main/resources/assets/test/models/item/universal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/universal_shovel.json",
+          "src/main/java/net/mcreator/test/item/UniversalShovelItem.java",
+          "src/main/resources/assets/test/items/universal_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/universal_hoe.json",
+          "src/main/java/net/mcreator/test/item/UniversalHoeItem.java",
+          "src/main/resources/assets/test/items/universal_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/recipes/universal_pickaxe_recipe.json",
+          "src/main/resources/data/test/recipe/universal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/recipes/universal_axe_recipe.json",
+          "src/main/resources/data/test/recipe/universal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/universal_sword_recipe.json",
+          "src/main/resources/data/test/advancement/recipes/universal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/recipes/universal_shovel_recipe.json",
+          "src/main/resources/data/test/recipe/universal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UniversalHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/recipes/universal_hoe_recipe.json",
+          "src/main/resources/data/test/recipe/universal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Smithingying",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithingying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/SmithingyingItem.java",
+          "src/main/resources/assets/test/items/smithingying.json",
+          "src/main/resources/assets/test/models/item/smithingying.json"
+        ]
+      }
+    },
+    {
+      "name": "YinYang",
+      "type": "armortrim",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yin_yang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/trim_pattern/yin_yang.json",
+          "src/main/resources/data/test/recipe/yin_yang_armor_trim_smithing_template_smithing_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "Lootformod",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lootformod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/loot_table/gameplay/smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "NULLfragtrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nul_lfragtrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/villager_trade/wandering_trader/1/nul_lfragtrade_0.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:test:ultgem_repair_items": [],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~UniversalCrystal@CUSTOM:UniversalCrystal",
+      "~Ublock@CUSTOM:Ublock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~UniversalCrystal@CUSTOM:UniversalCrystal",
+      "~Ublock@CUSTOM:Ublock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~UniversalPickaxe@CUSTOM:UniversalPickaxe"
+    ],
+    "ITEMS:test:universal_pickaxe_repair_items": [
+      "~UniversalPickaxe@CUSTOM:Uitem"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~UniversalAxe@CUSTOM:UniversalAxe"
+    ],
+    "ITEMS:test:universal_axe_repair_items": [
+      "~UniversalAxe@CUSTOM:Uitem"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~UniversalSword@CUSTOM:UniversalSword"
+    ],
+    "ITEMS:test:universal_sword_repair_items": [
+      "~UniversalSword@CUSTOM:Uitem"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~UniversalShovel@CUSTOM:UniversalShovel"
+    ],
+    "ITEMS:test:universal_shovel_repair_items": [
+      "~UniversalShovel@CUSTOM:Uitem"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~UniversalHoe@CUSTOM:UniversalHoe"
+    ],
+    "ITEMS:test:universal_hoe_repair_items": [
+      "~UniversalHoe@CUSTOM:Uitem"
+    ],
+    "VILLAGER_TRADES:minecraft:wandering_trader/common": [
+      "~NULLfragtrade@nul_lfragtrade_0"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.test.glitchitem": "Glitch shard",
+      "item.test.glitchblock": "Glitch block",
+      "effect.test.glitchfx": "Glitched",
+      "item.minecraft.potion.effect.glitchpotion": "Glitch effect",
+      "item.minecraft.splash_potion.effect.glitchpotion": "Splashable Glitch effect",
+      "item.minecraft.tipped_arrow.effect.glitchpotion": "Arrow of Glitch effect",
+      "item.minecraft.lingering_potion.effect.glitchpotion": "Lingering Glitch effect",
+      "item.minecraft.tipped_arrow.effect.glitchpotionamp_2": "Arrow of Glitch effect",
+      "item.minecraft.splash_potion.effect.glitchpotionamp_2": "Splashable Glitch effect",
+      "item.minecraft.lingering_potion.effect.glitchpotionamp_2": "Lingering Glitch effect",
+      "item.minecraft.potion.effect.glitchpotionamp_2": "Glitch effect",
+      "item.test.nul_lfrag": "NULL Fragment",
+      "item.test.nul_lblock": "NULL Block",
+      "item.test.universal_crystal": "Universal Crystal",
+      "item.test.uitem": "Universal Gem",
+      "item.test.ublock": "Universal Crystal Block",
+      "item.test.universal_pickaxe": "Universal Pickaxe",
+      "item.test.universal_axe": "Universal Axe",
+      "item.test.universal_sword": "Universal Sword",
+      "item.test.universal_shovel": "Universal Shovel",
+      "item.test.universal_hoe": "Universal Hoe",
+      "item.test.smithingying": "Yin Yang",
+      "trim_pattern.test.yin_yang": "Yin Yang"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/assets/minecraft/atlases/armor_trims.json",
+      "src/main/java/net/mcreator/test/init/TestModMobEffects.java",
+      "src/main/java/net/mcreator/test/init/TestModPotions.java",
+      "src/main/java/net/mcreator/test/init/TestModBrewingRecipes.java",
+      "src/main/java/net/mcreator/test/init/TestModBlocks.java",
+      "src/main/java/net/mcreator/test/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/test/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/test/init/TestModItems.java",
+      "src/main/java/net/mcreator/test/init/TestModFeatures.java",
+      "src/main/java/net/mcreator/test/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/test/event/ItemEvents.java",
+      "src/main/java/net/mcreator/test/mixin/BlockItemMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/test/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/test/mixin/ExperienceOrbMixin.java",
+      "src/main/resources/META-INF/test.classtweaker",
+      "src/main/java/net/mcreator/test/event/BlockEvents.java",
+      "src/main/java/net/mcreator/test/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/test/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/test/TestMod.java",
+      "src/main/java/net/mcreator/test/init/TestModTabs.java",
+      "src/main/java/net/mcreator/test/mixin/ItemStackMixin.java",
+      "src/main/resources/test.mixins.json",
+      "src/main/java/net/mcreator/test/event/MiscEvents.java",
+      "src/main/java/net/mcreator/test/mixin/BoneMealItemMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/test/TestModClient.java",
+      "src/main/java/net/mcreator/test/event/LivingEntityEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.2",
+    "modElementsPackage": "net.mcreator.test"
+  },
+  "mcreatorVersion": 202600233518
+}

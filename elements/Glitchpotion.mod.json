@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Glitch effect",
+    "splashName": "Splashable Glitch effect",
+    "lingeringName": "Lingering Glitch effect",
+    "arrowName": "Arrow of Glitch effect",
+    "effects": [
+      {
+        "effect": "CUSTOM:Glitchfx",
+        "duration": 4800,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+package net.mcreator.test.procedures;
+
+import net.minecraft.world.level.ClipContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+
+import net.mcreator.test.init.TestModItems;
+
+public class GlitchitemRightclickedProcedure {
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		{
+			Entity _ent = entity;
+			double _tx = (entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(50)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX());
+			double _ty = (entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(50)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY());
+			double _tz = (entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(50)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ());
+			_ent.teleportTo(_tx, _ty, _tz);
+			if (_ent instanceof ServerPlayer _serverPlayer)
+				_serverPlayer.connection.teleport(_tx, _ty, _tz, _ent.getYRot(), _ent.getXRot());
+		}
+		if (entity instanceof Player _player) {
+			ItemStack _stktoremove = new ItemStack(TestModItems.GLITCHITEM);
+			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+		}
+	}
+}
